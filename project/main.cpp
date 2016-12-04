@@ -10,8 +10,11 @@
 #include <stdio.h>
 #include <GLUT/glut.h>
 #include "MAC.h"
+#include <vecmath.h>
 
 int main(int argc, const char * argv[]) {
   // insert code here...
+  Vector2f a(0, 0);
+  a.print();
   return 0;
 }
