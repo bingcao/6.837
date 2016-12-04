@@ -63,6 +63,7 @@
 		915487A31DF4A342008E2882 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		915487A51DF4A58C008E2882 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
 		915487A71DF4A863008E2882 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		915487A91DF4AA65008E2882 /* gl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gl.h; path = ../gl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		9154865D1DF48C67008E2882 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				915487A91DF4AA65008E2882 /* gl.h */,
 				915486C21DF49F69008E2882 /* fluid_sim.hpp */,
 				915486C11DF49F69008E2882 /* fluid_sim.cpp */,
 				9154865E1DF48C67008E2882 /* main.cpp */,

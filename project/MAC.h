@@ -24,6 +24,16 @@ struct GridPoint {
 
 class MAC {
 public:
+  MAC(int length) {
+    for (int i = 0; i < length; ++i) {
+      vector<GridPoint> row;
+      for (int j = 0; j < length; ++j) {
+        row.push_back(GridPoint{0, 0, 0, 0, 0, 0, 0});
+      }
+      grid.push_back(row);
+    }
+  }
+  
   MAC(int height, int width) {
     for (int i = 0; i < height; ++i) {
       vector<GridPoint> row;
@@ -46,6 +56,13 @@ public:
     vector<GridPoint> r = grid[row];
     assert(col < r.size());
     r[col] = newPoint;
+  }
+  
+  const void setConcentration(int row, int col, float concentration){
+    assert (row < grid.size());
+    vector<GridPoint> r = grid[row];
+    assert(col < r.size());
+    r[col].concentration = concentration;
   }
   
   const float getVelocity(int row, int col) {
