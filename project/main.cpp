@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <GLUT/glut.h>
 #include "MAC.h"
-#include <vecmath.h>
+#include "vecmath.h"
 
 int main(int argc, const char * argv[]) {
   // insert code here...

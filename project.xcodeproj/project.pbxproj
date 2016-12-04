@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9154865F1DF48C67008E2882 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9154865E1DF48C67008E2882 /* main.cpp */; };
+		9154869E1DF49CC1008E2882 /* Matrix2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486971DF49CC1008E2882 /* Matrix2f.cpp */; settings = {ASSET_TAGS = (); }; };
+		9154869F1DF49CC1008E2882 /* Matrix3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486981DF49CC1008E2882 /* Matrix3f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486A01DF49CC1008E2882 /* Matrix4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486991DF49CC1008E2882 /* Matrix4f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486A11DF49CC1008E2882 /* Quat4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9154869A1DF49CC1008E2882 /* Quat4f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486A21DF49CC1008E2882 /* Vector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9154869B1DF49CC1008E2882 /* Vector2f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486A31DF49CC1008E2882 /* Vector3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9154869C1DF49CC1008E2882 /* Vector3f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486A41DF49CC1008E2882 /* Vector4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9154869D1DF49CC1008E2882 /* Vector4f.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,22 +34,22 @@
 		9154865E1DF48C67008E2882 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		915486651DF48F52008E2882 /* MAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAC.h; sourceTree = "<group>"; };
 		915486661DF49616008E2882 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		9154867B1DF4993C008E2882 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
-		9154867D1DF4993C008E2882 /* Matrix2f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix2f.h; sourceTree = "<group>"; };
-		9154867E1DF4993C008E2882 /* Matrix3f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix3f.h; sourceTree = "<group>"; };
-		9154867F1DF4993C008E2882 /* Matrix4f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix4f.h; sourceTree = "<group>"; };
-		915486801DF4993C008E2882 /* Quat4f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quat4f.h; sourceTree = "<group>"; };
-		915486811DF4993C008E2882 /* vecmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vecmath.h; sourceTree = "<group>"; };
-		915486821DF4993C008E2882 /* Vector2f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector2f.h; sourceTree = "<group>"; };
-		915486831DF4993C008E2882 /* Vector3f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector3f.h; sourceTree = "<group>"; };
-		915486841DF4993C008E2882 /* Vector4f.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vector4f.h; sourceTree = "<group>"; };
-		915486851DF4993C008E2882 /* Matrix2f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix2f.cpp; sourceTree = "<group>"; };
-		915486861DF4993C008E2882 /* Matrix3f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3f.cpp; sourceTree = "<group>"; };
-		915486871DF4993C008E2882 /* Matrix4f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4f.cpp; sourceTree = "<group>"; };
-		915486881DF4993C008E2882 /* Quat4f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quat4f.cpp; sourceTree = "<group>"; };
-		915486891DF4993C008E2882 /* Vector2f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2f.cpp; sourceTree = "<group>"; };
-		9154868A1DF4993C008E2882 /* Vector3f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3f.cpp; sourceTree = "<group>"; };
-		9154868B1DF4993C008E2882 /* Vector4f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4f.cpp; sourceTree = "<group>"; };
+		9154868D1DF49CC1008E2882 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		9154868F1DF49CC1008E2882 /* Matrix2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2f.h; sourceTree = "<group>"; };
+		915486901DF49CC1008E2882 /* Matrix3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3f.h; sourceTree = "<group>"; };
+		915486911DF49CC1008E2882 /* Matrix4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4f.h; sourceTree = "<group>"; };
+		915486921DF49CC1008E2882 /* Quat4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quat4f.h; sourceTree = "<group>"; };
+		915486931DF49CC1008E2882 /* vecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecmath.h; sourceTree = "<group>"; };
+		915486941DF49CC1008E2882 /* Vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2f.h; sourceTree = "<group>"; };
+		915486951DF49CC1008E2882 /* Vector3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3f.h; sourceTree = "<group>"; };
+		915486961DF49CC1008E2882 /* Vector4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4f.h; sourceTree = "<group>"; };
+		915486971DF49CC1008E2882 /* Matrix2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix2f.cpp; sourceTree = "<group>"; };
+		915486981DF49CC1008E2882 /* Matrix3f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3f.cpp; sourceTree = "<group>"; };
+		915486991DF49CC1008E2882 /* Matrix4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4f.cpp; sourceTree = "<group>"; };
+		9154869A1DF49CC1008E2882 /* Quat4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quat4f.cpp; sourceTree = "<group>"; };
+		9154869B1DF49CC1008E2882 /* Vector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2f.cpp; sourceTree = "<group>"; };
+		9154869C1DF49CC1008E2882 /* Vector3f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3f.cpp; sourceTree = "<group>"; };
+		9154869D1DF49CC1008E2882 /* Vector4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4f.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +66,7 @@
 		915486521DF48C67008E2882 = {
 			isa = PBXGroup;
 			children = (
+				9154868C1DF49CC1008E2882 /* vecmath */,
 				9154865D1DF48C67008E2882 /* project */,
 				9154865C1DF48C67008E2882 /* Products */,
 			);
@@ -75,7 +83,6 @@
 		9154865D1DF48C67008E2882 /* project */ = {
 			isa = PBXGroup;
 			children = (
-				9154867A1DF4993C008E2882 /* vecmath */,
 				9154865E1DF48C67008E2882 /* main.cpp */,
 				915486651DF48F52008E2882 /* MAC.h */,
 				915486661DF49616008E2882 /* util.h */,
@@ -83,33 +90,34 @@
 			path = project;
 			sourceTree = "<group>";
 		};
-		9154867A1DF4993C008E2882 /* vecmath */ = {
+		9154868C1DF49CC1008E2882 /* vecmath */ = {
 			isa = PBXGroup;
 			children = (
-				9154867B1DF4993C008E2882 /* CMakeLists.txt */,
-				9154867C1DF4993C008E2882 /* include */,
-				915486851DF4993C008E2882 /* Matrix2f.cpp */,
-				915486861DF4993C008E2882 /* Matrix3f.cpp */,
-				915486871DF4993C008E2882 /* Matrix4f.cpp */,
-				915486881DF4993C008E2882 /* Quat4f.cpp */,
-				915486891DF4993C008E2882 /* Vector2f.cpp */,
-				9154868A1DF4993C008E2882 /* Vector3f.cpp */,
-				9154868B1DF4993C008E2882 /* Vector4f.cpp */,
+				9154868D1DF49CC1008E2882 /* CMakeLists.txt */,
+				9154868E1DF49CC1008E2882 /* include */,
+				915486971DF49CC1008E2882 /* Matrix2f.cpp */,
+				915486981DF49CC1008E2882 /* Matrix3f.cpp */,
+				915486991DF49CC1008E2882 /* Matrix4f.cpp */,
+				9154869A1DF49CC1008E2882 /* Quat4f.cpp */,
+				9154869B1DF49CC1008E2882 /* Vector2f.cpp */,
+				9154869C1DF49CC1008E2882 /* Vector3f.cpp */,
+				9154869D1DF49CC1008E2882 /* Vector4f.cpp */,
 			);
-			path = vecmath;
+			name = vecmath;
+			path = ../../starter5/vecmath;
 			sourceTree = "<group>";
 		};
-		9154867C1DF4993C008E2882 /* include */ = {
+		9154868E1DF49CC1008E2882 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				9154867D1DF4993C008E2882 /* Matrix2f.h */,
-				9154867E1DF4993C008E2882 /* Matrix3f.h */,
-				9154867F1DF4993C008E2882 /* Matrix4f.h */,
-				915486801DF4993C008E2882 /* Quat4f.h */,
-				915486811DF4993C008E2882 /* vecmath.h */,
-				915486821DF4993C008E2882 /* Vector2f.h */,
-				915486831DF4993C008E2882 /* Vector3f.h */,
-				915486841DF4993C008E2882 /* Vector4f.h */,
+				9154868F1DF49CC1008E2882 /* Matrix2f.h */,
+				915486901DF49CC1008E2882 /* Matrix3f.h */,
+				915486911DF49CC1008E2882 /* Matrix4f.h */,
+				915486921DF49CC1008E2882 /* Quat4f.h */,
+				915486931DF49CC1008E2882 /* vecmath.h */,
+				915486941DF49CC1008E2882 /* Vector2f.h */,
+				915486951DF49CC1008E2882 /* Vector3f.h */,
+				915486961DF49CC1008E2882 /* Vector4f.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -170,6 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915486A01DF49CC1008E2882 /* Matrix4f.cpp in Sources */,
+				9154869F1DF49CC1008E2882 /* Matrix3f.cpp in Sources */,
+				915486A41DF49CC1008E2882 /* Vector4f.cpp in Sources */,
+				915486A21DF49CC1008E2882 /* Vector2f.cpp in Sources */,
+				915486A11DF49CC1008E2882 /* Quat4f.cpp in Sources */,
+				9154869E1DF49CC1008E2882 /* Matrix2f.cpp in Sources */,
+				915486A31DF49CC1008E2882 /* Vector3f.cpp in Sources */,
 				9154865F1DF48C67008E2882 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
