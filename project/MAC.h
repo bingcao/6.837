@@ -76,7 +76,7 @@ public:
     assert(row < grid.size());
     vector<GridPoint> r = grid[row];
     assert(col < r.size());
-    return r[col].temperature;
+    return r[col].temperature;      
   }
   
   const float getConcentration(int row, int col) {
