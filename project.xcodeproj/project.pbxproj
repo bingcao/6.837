@@ -15,6 +15,12 @@
 		915486BB1DF49E13008E2882 /* Vector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486B41DF49E13008E2882 /* Vector2f.cpp */; settings = {ASSET_TAGS = (); }; };
 		915486BC1DF49E13008E2882 /* Vector3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486B51DF49E13008E2882 /* Vector3f.cpp */; settings = {ASSET_TAGS = (); }; };
 		915486BD1DF49E13008E2882 /* Vector4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486B61DF49E13008E2882 /* Vector4f.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486C31DF49F69008E2882 /* fluid_sim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 915486C11DF49F69008E2882 /* fluid_sim.cpp */; settings = {ASSET_TAGS = (); }; };
+		915486C71DF4A032008E2882 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915486C61DF4A032008E2882 /* OpenGL.framework */; };
+		915487A21DF4A33A008E2882 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915487A11DF4A33A008E2882 /* Cocoa.framework */; };
+		915487A41DF4A342008E2882 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915487A31DF4A342008E2882 /* IOKit.framework */; };
+		915487A61DF4A58C008E2882 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 915487A51DF4A58C008E2882 /* libglfw3.a */; };
+		915487A81DF4A863008E2882 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915487A71DF4A863008E2882 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +56,13 @@
 		915486B41DF49E13008E2882 /* Vector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2f.cpp; sourceTree = "<group>"; };
 		915486B51DF49E13008E2882 /* Vector3f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3f.cpp; sourceTree = "<group>"; };
 		915486B61DF49E13008E2882 /* Vector4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4f.cpp; sourceTree = "<group>"; };
+		915486C11DF49F69008E2882 /* fluid_sim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fluid_sim.cpp; path = ../fluid_sim.cpp; sourceTree = "<group>"; };
+		915486C21DF49F69008E2882 /* fluid_sim.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fluid_sim.hpp; path = ../fluid_sim.hpp; sourceTree = "<group>"; };
+		915486C61DF4A032008E2882 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		915487A11DF4A33A008E2882 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		915487A31DF4A342008E2882 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		915487A51DF4A58C008E2882 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		915487A71DF4A863008E2882 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915487A81DF4A863008E2882 /* CoreVideo.framework in Frameworks */,
+				915487A61DF4A58C008E2882 /* libglfw3.a in Frameworks */,
+				915487A41DF4A342008E2882 /* IOKit.framework in Frameworks */,
+				915487A21DF4A33A008E2882 /* Cocoa.framework in Frameworks */,
+				915486C71DF4A032008E2882 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,11 @@
 		915486521DF48C67008E2882 = {
 			isa = PBXGroup;
 			children = (
+				915487A71DF4A863008E2882 /* CoreVideo.framework */,
+				915487A51DF4A58C008E2882 /* libglfw3.a */,
+				915487A31DF4A342008E2882 /* IOKit.framework */,
+				915487A11DF4A33A008E2882 /* Cocoa.framework */,
+				915486C61DF4A032008E2882 /* OpenGL.framework */,
 				915486A51DF49E13008E2882 /* vecmath */,
 				9154865D1DF48C67008E2882 /* project */,
 				9154865C1DF48C67008E2882 /* Products */,
@@ -83,6 +106,8 @@
 		9154865D1DF48C67008E2882 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				915486C21DF49F69008E2882 /* fluid_sim.hpp */,
+				915486C11DF49F69008E2882 /* fluid_sim.cpp */,
 				9154865E1DF48C67008E2882 /* main.cpp */,
 				915486651DF48F52008E2882 /* MAC.h */,
 				915486661DF49616008E2882 /* util.h */,
@@ -183,6 +208,7 @@
 				915486BD1DF49E13008E2882 /* Vector4f.cpp in Sources */,
 				915486BB1DF49E13008E2882 /* Vector2f.cpp in Sources */,
 				915486BA1DF49E13008E2882 /* Quat4f.cpp in Sources */,
+				915486C31DF49F69008E2882 /* fluid_sim.cpp in Sources */,
 				915486B71DF49E13008E2882 /* Matrix2f.cpp in Sources */,
 				915486BC1DF49E13008E2882 /* Vector3f.cpp in Sources */,
 				9154865F1DF48C67008E2882 /* main.cpp in Sources */,
@@ -272,7 +298,8 @@
 		915486631DF48C67008E2882 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include/GLFW;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -281,7 +308,8 @@
 		915486641DF48C67008E2882 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /usr/local/include/GLFW;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
